@@ -1,0 +1,12 @@
+#relam {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    animation-name: move;
+    animation-duration: 10s;
+}
+
+@keyframes move{
+    from {transform: translate(-20rem,0)}
+    to {transform: translate(200rem, 0)}
+}
