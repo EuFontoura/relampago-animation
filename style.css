@@ -4,6 +4,7 @@
     height: 100vh;
     animation-name: move;
     animation-duration: 10s;
+    transform: translate(-20rem,0)
 }
 
 @keyframes move{
